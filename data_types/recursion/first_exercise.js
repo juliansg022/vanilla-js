@@ -44,7 +44,7 @@ alert(sumToWithFormula(100)); // 5050
 // because only needs a calcule to find the answer. So to calculate the count of 100000
 // is necessary to execute an only simple math expression.
 
-// The slowest solution es the builded with the for loop because needs
+// The slowest solution is the builded with the for loop because needs
 // to interate in each number from n until 1. So to calculate the count of 100000
 // is necessary to do 100000 interations.
 
