@@ -11,7 +11,7 @@ function makeUser() {
 
 let user = makeUser();
 
-alert(user.ref.name);
+window.alert(user.ref.name);
 // That's an error. "this" will be undefined, because
 // the function is called without point syntaxis. "This" is defined from
 // the function definition
@@ -28,7 +28,7 @@ function makeOtherUser() {
 }
 
 let otherUser = makeOtherUser();
-alert(otherUser.ref().name);
+window.alert(otherUser.ref().name);
 
 // In this case, "this" is defined at runtime.
 // So "ref()" will return the object and from this object

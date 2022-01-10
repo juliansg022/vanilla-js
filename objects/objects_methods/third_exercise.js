@@ -37,7 +37,7 @@ let ladder = {
   },
   showStep: function () {
     // shows the current step
-    alert(this.step);
+    window.alert(this.step);
     return this;
   },
 };

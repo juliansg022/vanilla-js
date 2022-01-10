@@ -9,12 +9,12 @@ let calculator = {
   secondNumber: 0,
 
   read() {
-    this.firstNumber = prompt("Type the first number");
-    this.secondNumber = prompt("Type the second number");
+    this.firstNumber = +window.prompt("Type the first number");
+    this.secondNumber = +window.prompt("Type the second number");
   },
 
   sum() {
-    return +this.firstNumber + +this.secondNumber;
+    return this.firstNumber + this.secondNumber;
   },
 
   mul() {
@@ -23,5 +23,5 @@ let calculator = {
 };
 
 calculator.read();
-alert(calculator.sum());
-alert(calculator.mul());
+window.alert(calculator.sum());
+window.alert(calculator.mul());

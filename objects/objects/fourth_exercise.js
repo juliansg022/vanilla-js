@@ -10,7 +10,7 @@ let menu = {
   title: "My menu",
 };
 
-console.log(menu);
+window.console.log(menu);
 
 multiplyNumeric(menu);
 
@@ -21,7 +21,7 @@ multiplyNumeric(menu);
 //   title: "My menu",
 // };
 
-console.log(menu);
+window.console.log(menu);
 
 // Please note that multiplyNumeric does not need to return anything.
 // It should modify the object in-place.

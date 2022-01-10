@@ -5,15 +5,16 @@
 
 let schedule = {};
 
-alert(isEmpty(schedule)); // true
+window.alert(isEmpty(schedule)); // true
 
 schedule["8:30"] = "get up";
 
-alert(isEmpty(schedule)); // false
+window.alert(isEmpty(schedule)); // false
 
 function isEmpty(object) {
   let empty = true;
   for (let key in object) {
+    window.console.log(`The first key found was ${key}`);
     empty = false;
     break;
   }

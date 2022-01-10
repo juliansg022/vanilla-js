@@ -16,4 +16,4 @@ for (let person in salaries) {
   salaryAccumulated += salaries[person];
 }
 
-alert(salaryAccumulated);
+window.alert(salaryAccumulated);

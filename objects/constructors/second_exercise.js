@@ -8,13 +8,13 @@
 let calculator = new Calculator();
 calculator.read();
 
-alert("Sum=" + calculator.sum());
-alert("Mul=" + calculator.mul());
+window.alert("Sum=" + calculator.sum());
+window.alert("Mul=" + calculator.mul());
 
 function Calculator() {
   this.read = function () {
-    this.firstNumber = +prompt("Type the first number", 0);
-    this.SecondNumber = +prompt("Type the second number", 0);
+    this.firstNumber = +window.prompt("Type the first number", 0);
+    this.SecondNumber = +window.prompt("Type the second number", 0);
   };
 
   this.sum = function () {
