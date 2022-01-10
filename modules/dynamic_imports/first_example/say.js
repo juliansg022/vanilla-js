@@ -1,7 +1,7 @@
 export function hi() {
-  alert("Hello");
+  window.alert("Hello");
 }
 
 export function bye() {
-  alert("Bye");
+  window.alert("Bye");
 }

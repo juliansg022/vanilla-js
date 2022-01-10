@@ -1,3 +1,3 @@
 export function sayHi(user) {
-  alert(`Hello, ${user}!`);
+  window.alert(`Hello, ${user}!`);
 }

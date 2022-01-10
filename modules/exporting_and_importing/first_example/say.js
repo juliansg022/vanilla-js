@@ -1,9 +1,9 @@
 function sayHi(user) {
-  alert(`Hello, ${user}!`);
+  window.alert(`Hello, ${user}!`);
 }
 
 function sayBye(user) {
-  alert(`Bye, ${user}!`);
+  window.alert(`Bye, ${user}!`);
 }
 
 export { sayHi, sayBye };
