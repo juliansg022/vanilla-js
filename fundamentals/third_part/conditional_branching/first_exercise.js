@@ -1,4 +1,4 @@
-// Will alert be shown?
+// Will window.alert be shown?
 if ("0") {
-  alert("Hello"); // This alert always will be displayed. A string always is "true"
+  window.alert("Hello"); // This window.alert always will be displayed. A string always is "true"
 }

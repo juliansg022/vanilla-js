@@ -14,7 +14,11 @@
 //   message = '';
 // }
 
+let login = window.prompt("Who are you?");
+
 let message = (login == "Employee") ? "Hello" :
     (login == "Director") ? "Greettings" :
     (login == "") ? "No login" :
     "";
+
+window.alert(message);

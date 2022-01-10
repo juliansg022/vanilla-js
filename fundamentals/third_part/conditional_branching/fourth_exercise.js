@@ -8,4 +8,9 @@
 //   result = 'Over';
 // }
 
-let result = (a + b < 4) ? "Below" : "Over";
+let a = window.prompt("Type a number");
+let b = window.prompt("Type another number");
+
+let result = a + b < 4 ? "Below" : "Over";
+
+window.alert(result);

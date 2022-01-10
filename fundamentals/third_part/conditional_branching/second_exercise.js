@@ -3,10 +3,10 @@
 // If the visitor enters “ECMAScript”, then output “Right!”,
 // otherwise – output: “You don’t know? ECMAScript!”
 
-let answer = prompt('What is the "official" name of JavaScript?');
+let answer = window.prompt('What is the "official" name of JavaScript?');
 
 if (answer == "ECMAScript") {
-  alert("Right!");
+  window.alert("Right!");
 } else {
-  alert("You don't know? ECMAScript!");
+  window.alert("You don't know? ECMAScript!");
 }
