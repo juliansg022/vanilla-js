@@ -1,11 +1,11 @@
 // What will be the result of this code?
 
-let x = 1;
+let x = 1; // jshint ignore:line
 
 function func() {
-  console.log(x); // ?
+  window.console.log(x); // ?
 
-  let x = 2;
+  let x = 2; // jshint ignore:line
 }
 
 func();

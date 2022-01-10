@@ -13,13 +13,13 @@ function makeCounter() {
 let counter = makeCounter();
 let counter2 = makeCounter();
 
-alert(counter()); // 0
-alert(counter()); // 1
+window.alert(counter()); // 0
+window.alert(counter()); // 1
 
 // When the function is assigned to each variable
 // the function is initialized.
 // In other words, create the function "counter" and "counter2"
 // with the same body that the original function when was declared
 
-alert(counter2()); // ? This will show "0"
-alert(counter2()); // ? This will show "1"
+window.alert(counter2()); // ? This will show "0"
+window.alert(counter2()); // ? This will show "1"

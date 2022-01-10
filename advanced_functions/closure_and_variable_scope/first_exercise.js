@@ -1,13 +1,13 @@
 // The function sayHi uses an external variable name.
 // When the function runs, which value is it going to use?
 
-let name = "John";
+let userName = "John";
 
 function sayHi() {
-  alert("Hi, " + name);
+  window.alert("Hi, " + userName);
 }
 
-name = "Pete";
+userName = "Pete";
 
 sayHi(); // what will it show: "John" or "Pete"?
 // Such situations are common both in browser and server-side development.

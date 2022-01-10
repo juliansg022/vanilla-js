@@ -13,8 +13,8 @@ function sum(firstNumber) {
   };
 }
 
-alert(sum(1)(2));
-alert(sum(5)(-1));
+window.alert(sum(1)(2));
+window.alert(sum(5)(-1));
 
 // To the second parentheses work is necessary
 // that the function returns another function

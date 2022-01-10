@@ -11,7 +11,7 @@ function printNumbers(from, to) {
 
   setInterval(function () {
     if (current <= to) {
-      alert(current);
+      window.alert(current);
     } else {
       clearInterval();
     }
@@ -24,7 +24,7 @@ function printNumbers(from, to) {
 
   setTimeout(function print() {
     if (current <= to) {
-      alert(current);
+      window.alert(current);
       setTimeout(print, 1000);
     } else {
       clearTimeout();
@@ -32,3 +32,5 @@ function printNumbers(from, to) {
     current++;
   });
 }
+
+printNumbers(5, 10);

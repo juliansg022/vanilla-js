@@ -15,9 +15,9 @@ function Counter() {
 
 let counter = new Counter();
 
-alert(counter.up()); // ? This will show "1"
-alert(counter.up()); // ? This will show "2"
-alert(counter.down()); // ? This will show "1"
+window.alert(counter.up()); // ? This will show "1"
+window.alert(counter.up()); // ? This will show "2"
+window.alert(counter.down()); // ? This will show "1"
 
 // When the object "counter" was created
 // starts with "count = 0", this "count" variable

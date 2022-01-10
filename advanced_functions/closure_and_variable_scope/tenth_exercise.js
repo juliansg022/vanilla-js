@@ -8,9 +8,9 @@ function makeArmy() {
   let i = 0;
   while (i < 10) {
     let k = i;
-    let shooter = function () {
+    let shooter = function () { // jshint ignore:line
       // create a shooter function,
-      alert(k); // that should show its number
+      window.alert(k); // that should show its number
     };
     shooters.push(shooter); // and add it to the array
     i++;
