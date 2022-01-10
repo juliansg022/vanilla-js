@@ -5,7 +5,7 @@ let user = {
   age: 30,
 };
 
-alert(count(user)); // 2
+window.alert(count(user)); // 2
 // Try to make the code as short as possible.
 
 // P.S. Ignore symbolic properties, count only “regular” ones.

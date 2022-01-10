@@ -11,4 +11,4 @@ let users = [john, pete, mary];
 
 let names = users.map((user) => user.name); /* ... your code */
 
-alert(names); // John, Pete, Mary
+window.alert(names); // John, Pete, Mary

@@ -21,5 +21,5 @@ function factorial(n) {
   }
 }
 
-alert(factorial(5)); // 120
+window.alert(factorial(5)); // 120
 // P.S. Hint: n! can be written as n * (n-1)! For instance: 3! = 3*2! = 3*2*1! = 6

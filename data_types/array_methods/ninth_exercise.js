@@ -12,9 +12,9 @@ let arr = [pete, john, mary];
 sortByAge(arr);
 
 // now: [john, mary, pete]
-alert(arr[0].name); // John
-alert(arr[1].name); // Mary
-alert(arr[2].name); // Pete
+window.alert(arr[0].name); // John
+window.alert(arr[1].name); // Mary
+window.alert(arr[2].name); // Pete
 
 function sortByAge(array) {
   array.sort((a, b) => a.age - b.age);

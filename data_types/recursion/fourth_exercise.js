@@ -26,13 +26,13 @@ function printListWithLoop(object) {
   let instance = object;
 
   while (instance) {
-    alert(instance.value);
+    window.alert(instance.value);
     instance = instance.next;
   }
 }
 
 function printListWithRecursion(object) {
-  alert(object.value);
+  window.alert(object.value);
 
   if (object.next) {
     printListWithRecursion(object.next);

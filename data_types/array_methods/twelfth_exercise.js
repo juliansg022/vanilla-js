@@ -4,10 +4,6 @@
 
 // For instance:
 
-function unique(arr) {
-  /* your code */
-}
-
 let strings = [
   "Hare",
   "Krishna",
@@ -20,7 +16,7 @@ let strings = [
   ":-O",
 ];
 
-alert(unique(strings)); // Hare, Krishna, :-O
+window.alert(unique(strings)); // Hare, Krishna, :-O
 
 function unique(array) {
   let answer = [];

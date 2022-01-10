@@ -13,7 +13,7 @@ let salaries = {
   Mary: 250,
 };
 
-alert(sumSalaries(salaries)); // 650
+window.alert(sumSalaries(salaries)); // 650
 
 function sumSalaries(object) {
   let total = 0;

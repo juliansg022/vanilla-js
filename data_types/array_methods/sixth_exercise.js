@@ -9,7 +9,7 @@
 // Usage example:
 
 // let calc = new Calculator();
-// alert(calc.calculate("3 + 7")); // 10
+// window.alert(calc.calculate("3 + 7")); // 10
 
 // (2) Then add the method addMethod(name, func) that teaches the calculator
 // a new operation. It takes the operator name and the two-argument function
@@ -23,7 +23,7 @@
 // powerCalc.addMethod("**", (a, b) => a ** b);
 
 // let result = powerCalc.calculate("2 ** 3");
-// alert(result); // 8
+// window.alert(result); // 8
 
 // No parentheses or complex expressions in this task.
 // The numbers and the operator are delimited with exactly one space.
@@ -42,7 +42,7 @@ function Calculator() {
     try {
       return this[operator](a, b);
     } catch (error) {
-        alert("Error in sent arguments");
+        window.alert("Error in sent arguments");
     }
   };
 }
@@ -53,4 +53,4 @@ powerCalc.addMethod("/", (a, b) => a / b);
 powerCalc.addMethod("**", (a, b) => a ** b);
 
 let result = powerCalc.calculate("2 ** 3");
-alert(result); // 8
+window.alert(result); // 8

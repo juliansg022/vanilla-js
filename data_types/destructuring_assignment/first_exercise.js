@@ -14,8 +14,8 @@ let user = {
 // let user = { name: "John", years: 30 };
 
 // your code to the left side:
-let { name, years: age, isAdmin = false } = user;
+let { name: userName, years: age, isAdmin = false } = user;
 
-alert(name); // John
-alert(age); // 30
-alert(isAdmin); // false
+window.alert(userName); // John
+window.alert(age); // 30
+window.alert(isAdmin); // false

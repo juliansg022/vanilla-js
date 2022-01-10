@@ -24,4 +24,4 @@ function topSalary(object) {
   return answer;
 }
 
-alert(topSalary(salaries));
+window.alert(topSalary(salaries));

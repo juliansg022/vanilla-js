@@ -29,8 +29,8 @@ function fibDP(n) {
   return b;
 }
 
-alert(fib(3)); // 2
-alert(fib(7)); // 13
-alert(fibDP(77)); // 5527939700884757
+window.alert(fib(3)); // 2
+window.alert(fib(7)); // 13
+window.alert(fibDP(77)); // 5527939700884757
 // P.S. The function should be fast. The call to fib(77) should take no more than a fraction of a second.
 // With the recursive solution, the Fib of 77 consumes too many CPU resources.

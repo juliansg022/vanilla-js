@@ -23,6 +23,6 @@ function camelize(str) {
   return answer;
 }
 
-alert(camelize("background-color") == "backgroundColor");
-alert(camelize("list-style-image") == "listStyleImage");
-alert(camelize("-webkit-transition") == "WebkitTransition");
+window.alert(camelize("background-color") == "backgroundColor");
+window.alert(camelize("list-style-image") == "listStyleImage");
+window.alert(camelize("-webkit-transition") == "WebkitTransition");

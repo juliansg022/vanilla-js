@@ -26,14 +26,14 @@ function printListReverseWithLoop(object) {
     instance = instance.next;
   }
 
-  list.reverse().forEach((element) => alert(element));
+  list.reverse().forEach((element) => window.alert(element));
 }
 
 function printListReverseWithRecursion(object) {
   if (object.next) {
     printListReverseWithRecursion(object.next);
   }
-  alert(object.value);
+  window.alert(object.value);
 }
 
 printListReverseWithLoop(list);

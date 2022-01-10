@@ -33,3 +33,5 @@ function groupById(array) {
     return answer;
   }, {});
 }
+
+window.console.log(usersById);

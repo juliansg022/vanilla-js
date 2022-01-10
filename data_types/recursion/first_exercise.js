@@ -35,9 +35,9 @@ function sumToWithFormula(n) {
   return (n * (1 + n)) / 2;
 }
 
-alert(sumToWithForLoop(100)); // 5050
-alert(sumToWithRecursion(100)); // 5050
-alert(sumToWithFormula(100)); // 5050
+window.alert(sumToWithForLoop(100)); // 5050
+window.alert(sumToWithRecursion(100)); // 5050
+window.alert(sumToWithFormula(100)); // 5050
 
 // P.S. Which solution variant is the fastest? The slowest? Why?
 // The fastest solution is the builded with the arithmetic progression formula

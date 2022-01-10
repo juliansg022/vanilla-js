@@ -6,8 +6,8 @@
 
 // let sorted = copySorted(arr);
 
-// alert(sorted); // CSS, HTML, JavaScript
-// alert(arr); // HTML, JavaScript, CSS (no changes)
+// window.alert(sorted); // CSS, HTML, JavaScript
+// window.alert(arr); // HTML, JavaScript, CSS (no changes)
 
 function copySorted(array) {
   let answer = array.slice(0, array.length);
@@ -18,5 +18,5 @@ let arr = ["HTML", "JavaScript", "CSS"];
 
 let sorted = copySorted(arr);
 
-alert(sorted); // CSS, HTML, JavaScript
-alert(arr); // HTML, JavaScript, CSS (no changes)
+window.alert(sorted); // CSS, HTML, JavaScript
+window.alert(arr); // HTML, JavaScript, CSS (no changes)

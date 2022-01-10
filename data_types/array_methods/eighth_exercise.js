@@ -27,8 +27,8 @@ usersMapped = [
 ]
 */
 
-alert(usersMapped[0].id); // 1
-alert(usersMapped[0].fullName); // John Smith
+window.alert(usersMapped[0].id); // 1
+window.alert(usersMapped[0].fullName); // John Smith
 
 // So, actually you need to map one array of objects to another.
 // Try using => here. There’s a small catch.
