@@ -3,12 +3,12 @@
 // What will be the output?
 
 function f() {
-  alert(this.name);
+  window.alert(this.name);
 }
 
-f = f.bind({ name: "John" }).bind({ name: "Ann" });
+let g = f.bind({ name: "John" }).bind({ name: "Ann" });
 
-f(); // It will show "John"
+g(); // It will show "John"
 
 // A function cannot bound again.
 // Only the first binding will be recognized.

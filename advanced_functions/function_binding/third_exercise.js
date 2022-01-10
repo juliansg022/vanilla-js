@@ -2,7 +2,7 @@
 // Will it change after bind? Why, or why not?
 
 function sayHi() {
-  alert(this.name);
+  window.alert(this.name);
 }
 sayHi.test = 5;
 
@@ -10,7 +10,7 @@ let bound = sayHi.bind({
   name: "John",
 });
 
-alert(bound.test); // what will be the output? why?
+window.alert(bound.test); // what will be the output? why?
 
 // "this" will be { name: "John"}. So
 // when the bind is called with that argument

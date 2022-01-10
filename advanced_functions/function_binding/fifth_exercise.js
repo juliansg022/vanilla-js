@@ -8,7 +8,7 @@
 //  user.login(true) as ok and user.login(false) as fail?
 
 function askPassword(ok, fail) {
-  let password = prompt("Password?", "");
+  let password = window.prompt("Password?", "");
   if (password == "rockstar") ok();
   else fail();
 }
@@ -17,7 +17,7 @@ let user = {
   name: "John",
 
   login(result) {
-    alert(this.name + (result ? " logged in" : " failed to log in"));
+    window.alert(this.name + (result ? " logged in" : " failed to log in"));
   },
 };
 

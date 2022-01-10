@@ -1,7 +1,7 @@
 // What will be the output?
 
 function f() {
-  alert(this); // ?
+  window.alert(this); // ?
 }
 
 let user = {

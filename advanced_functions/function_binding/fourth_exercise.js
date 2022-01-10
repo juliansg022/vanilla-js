@@ -11,7 +11,7 @@
 // (other lines are not to be changed).
 
 function askPassword(ok, fail) {
-  let password = prompt("Password?", "");
+  let password = window.prompt("Password?", "");
   if (password == "rockstar") ok();
   else fail();
 }
@@ -20,11 +20,11 @@ let user = {
   name: "John",
 
   loginOk() {
-    alert(`${this.name} logged in`);
+    window.alert(`${this.name} logged in`);
   },
 
   loginFail() {
-    alert(`${this.name} failed to log in`);
+    window.alert(`${this.name} failed to log in`);
   },
 };
 
