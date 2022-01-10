@@ -18,17 +18,17 @@
 // Using OR ||
 
 function checkAgeV1(age) {
-  return age > 18 ? true : confirm("Did you parents allow you?");
+  return age > 18 ? true : window.confirm("Did you parents allow you?");
 }
 
 function checkAgeV2(age) {
-  return age > 18 || confirm("Did you parents allow you?");
+  return age > 18 || window.confirm("Did you parents allow you?");
 }
 
-let currentAge = prompt("What's your age?");
+let currentAge = window.prompt("What's your age?");
 
 let answerV1 = checkAgeV1(currentAge);
 let answerV2 = checkAgeV2(currentAge);
 
-alert(`The value saved in the V1 is ${answerV1}`);
-alert(`The value saved in the V2 is ${answerV2}`);
+window.alert(`The value saved in the V1 is ${answerV1}`);
+window.alert(`The value saved in the V2 is ${answerV2}`);

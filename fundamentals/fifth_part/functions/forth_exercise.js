@@ -19,11 +19,11 @@ function pow(base, exponent) {
     }
     return answer;
   } else {
-    alert("Only is allowed exponents up from 1");
+    window.alert("Only is allowed exponents up from 1");
   }
 }
 
-let base = prompt("Write a base to calculate its power");
-let exponent = prompt("Write the exponent");
+let base = window.prompt("Write a base to calculate its power");
+let exponent = window.prompt("Write the exponent");
 
-alert(pow(base, exponent));
+window.alert(pow(base, exponent));

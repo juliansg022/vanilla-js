@@ -7,9 +7,13 @@ function checkAge(age) {
     return true;
   } else {
     // ...
-    return confirm("Did parents allow you?");
+    return window.confirm("Did parents allow you?");
   }
 }
+
+let myAge = window.prompt("How old are you?", 18);
+
+checkAge(myAge);
 
 // Will the function work differently if else is removed?
 
@@ -18,7 +22,11 @@ function checkAge(age) {
     return true;
   }
   // ...
-  return confirm("Did parents allow you?");
+  return window.confirm("Did parents allow you?");
 }
+
+myAge = window.prompt("How old are you?", 18);
+
+checkAge(myAge);
 
 // Have the same behavior. When a "return" is executed, the function is aborted (ended).
