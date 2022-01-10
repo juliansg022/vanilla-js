@@ -1,6 +1,6 @@
 // Variables statement and assignment
-let name = "John";
-let admin = name;
+let user = "John";
+let admin = user;
 
 // Display admin content with an alert
-alert(admin);
+window.alert(admin);
