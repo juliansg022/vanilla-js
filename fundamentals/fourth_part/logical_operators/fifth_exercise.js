@@ -1,6 +1,6 @@
 // What will the result be?
 
-alert(null || 2 && 3 || 4); // Displays "3".
+window.alert(null || 2 && 3 || 4); // Displays "3".
 
 // First evaluate the AND statement, save the 3 as result of "2 && 3".
 // "&&" returns the last true value if doesn't find a false value.

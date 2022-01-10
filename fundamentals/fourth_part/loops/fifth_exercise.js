@@ -2,11 +2,11 @@
 // altering its behavior (the output should stay same).
 
 // for (let i = 0; i < 3; i++) {
-//   alert(`number ${i}!`);
+//   window.alert(`number ${i}!`);
 // }
 
 let i = 0;
 while (i < 3) {
-  alert(`number ${i}!`);
+  window.alert(`number ${i}!`);
   i++;
 }

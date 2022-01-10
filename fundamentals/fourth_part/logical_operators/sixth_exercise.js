@@ -2,10 +2,10 @@
 
 // “Inclusively” means that age can reach the edges 14 or 90.
 
-let age = prompt("Write your age please");
+let age = window.prompt("Write your age please");
 
 if (age >= 14 && age <= 90) {
-  alert("Your age is in the range");
+  window.alert("Your age is in the range");
 } else {
-  alert("Your age is out of range");
+  window.alert("Your age is out of range");
 }

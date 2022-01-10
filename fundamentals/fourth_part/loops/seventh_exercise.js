@@ -6,11 +6,11 @@
 // For n = 10 the result will be 2,3,5,7.
 // P.S. The code should work for any n, not be hard-tuned for any fixed value.
 
-let limit = prompt("Write a number please", 10);
+let limit = window.prompt("Write a number please", 10);
 
 for (let i = 2; i <= limit; i++) {
   if (i == 2) {
-    alert(i);
+    window.alert(i);
     continue;
   } else {
     if (i % 2 != 0) {
@@ -26,7 +26,7 @@ for (let i = 2; i <= limit; i++) {
         j--;
       }
       if (primeIndicator) {
-        alert(i);
+        window.alert(i);
       }
     }
   }

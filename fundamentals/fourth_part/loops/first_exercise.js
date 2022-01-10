@@ -1,9 +1,9 @@
-// What is the last value alerted by this code? Why?
+// What is the last value window.alerted by this code? Why?
 
 let i = 3;
 
 while (i) {
-  alert(i--);
+  window.alert(i--);
 }
 
 // The last value displayed is "1", because when "1" is displayed,

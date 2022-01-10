@@ -1,3 +1,3 @@
 // What is the code below going to output?
 
-alert(null || 2 || undefined); // Displays "2"
+window.alert(null || 2 || undefined); // Displays "2"

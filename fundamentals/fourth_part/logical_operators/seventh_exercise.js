@@ -2,18 +2,18 @@
 
 // Create two variants: the first one using NOT !, the second one – without it.
 
-let firstAge = prompt("Write your age please");
+let firstAge = window.prompt("Write your age please");
 
 if (!(firstAge >= 14 && firstAge <= 90)) {
-  alert("Your age is out of range");
+  window.alert("Your age is out of range");
 } else {
-  alert("Your age is in the range");
+  window.alert("Your age is in the range");
 }
 
-let secondAge = prompt("Write your age please");
+let secondAge = window.prompt("Write your age please");
 
 if (secondAge < 14 || secondAge > 90) {
-  alert("Your age is out of range");
+  window.alert("Your age is out of range");
 } else {
-  alert("Your age is in the range");
+  window.alert("Your age is in the range");
 }

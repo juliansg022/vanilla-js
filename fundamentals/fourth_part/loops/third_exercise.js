@@ -1,14 +1,14 @@
 // For each loop write down which values it is going to show. Then compare with the answer.
 
-// Both loops alert same values or not?
+// Both loops window.alert same values or not?
 
 // (1) The prefix form
-for (let i = 0; i < 5; i++) alert(i);
+for (let i = 0; i < 5; i++) window.alert(i);
 
 // (2) The postfix form i++
-for (let i = 0; i < 5; ++i) alert(i);
+for (let i = 0; i < 5; ++i) window.alert(i);
 
-// Both loops Start displaying from 0 to 4. First does the comparison, executes the alert
+// Both loops Start displaying from 0 to 4. First does the comparison, executes the window.alert
 // (displaying the value) and does the increment to do the comparison again.
 // To this case increment "i" as "i++" or "++i" is equal. The loop has a clear structure to
 // execute.

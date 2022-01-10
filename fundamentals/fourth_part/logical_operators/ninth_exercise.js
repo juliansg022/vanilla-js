@@ -1,6 +1,6 @@
-// Write the code which asks for a login with prompt.
+// Write the code which asks for a login with window.prompt.
 
-// If the visitor enters "Admin", then prompt for a password, if the input is an empty line or Esc – show “Canceled”, if it’s another string – then show “I don’t know you”.
+// If the visitor enters "Admin", then window.prompt for a password, if the input is an empty line or Esc – show “Canceled”, if it’s another string – then show “I don’t know you”.
 
 // The password is checked as follows:
 
@@ -11,22 +11,22 @@
 
 // Please use nested if blocks. Mind the overall readability of the code.
 
-// Hint: passing an empty input to a prompt returns an empty string ''. Pressing ESC during a prompt returns null.
+// Hint: passing an empty input to a window.prompt returns an empty string ''. Pressing ESC during a window.prompt returns null.
 
-let userType = prompt("¿Who's there?");
+let userType = window.prompt("¿Who's there?");
 
 if (userType == "Admin") {
-  let userPassword = prompt("¿What's the password?");
+  let userPassword = window.prompt("¿What's the password?");
 
   if (userPassword == "TheMaster") {
-    alert("Welcome!");
+    window.alert("Welcome!");
   } else if (userPassword == null || userPassword == "") {
-    alert("Canceled");
+    window.alert("Canceled");
   } else {
-    alert("Wrong password");
+    window.alert("Wrong password");
   }
 } else if (userType == null || userType == "") {
-  alert("Canceled");
+  window.alert("Canceled");
 } else {
-  alert("I don't know you");
+  window.alert("I don't know you");
 }
