@@ -11,10 +11,6 @@ function checkAge(age) {
   }
 }
 
-let myAge = window.prompt("How old are you?", 18);
-
-checkAge(myAge);
-
 // Will the function work differently if else is removed?
 
 function checkAge(age) {
@@ -25,7 +21,7 @@ function checkAge(age) {
   return window.confirm("Did parents allow you?");
 }
 
-myAge = window.prompt("How old are you?", 18);
+let myAge = window.prompt("How old are you?", 18);
 
 checkAge(myAge);
 
