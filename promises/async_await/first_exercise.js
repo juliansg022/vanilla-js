@@ -26,4 +26,4 @@ async function loadJson(url) {
   throw new Error(promise.status);
 }
 
-loadJson("no-such-user.json").catch(alert);
+loadJson("no-such-user.json").catch(window.alert);

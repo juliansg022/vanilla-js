@@ -7,7 +7,7 @@ async function wait() {
 }
 
 function f() {
-  wait().then((result) => alert(result));
+  wait().then((result) => window.alert(result));
 }
 
 f();

@@ -63,7 +63,7 @@ async function loadJson(url) {
 }
 
 async function demoGithubUser() {
-  let name = prompt("Enter a name?", "iliakan");
+  let name = window.prompt("Enter a name?", "iliakan");
 
   let user;
 
@@ -73,14 +73,14 @@ async function demoGithubUser() {
       break;
     } catch (err) {
       if (err instanceof HttpError && err.response.status == 404) {
-        alert("No such user, please reenter.");
+        window.alert("No such user, please reenter.");
       } else {
         throw err;
       }
     }
   }
 
-  alert(`Full name: ${user.name}.`);
+  window.alert(`Full name: ${user.name}.`);
   return user;
 }
 
