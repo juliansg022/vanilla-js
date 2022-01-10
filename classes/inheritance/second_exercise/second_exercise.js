@@ -5,5 +5,7 @@
 // Your code should be in the file extended-clock.js
 // Don’t modify the original clock.js. Extend it.
 
+import ExtendedClock from "./clock.js";
+
 let clock = new ExtendedClock({ template: "h:m:s" });
 clock.start();

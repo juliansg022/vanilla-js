@@ -8,6 +8,6 @@ A.prototype = B.prototype = {};
 
 let a = new A();
 
-alert(a instanceof B); // true
+window.alert(a instanceof B); // true
 
 // Because both classes share the same prototype

@@ -1,4 +1,4 @@
-class Clock {
+export default class Clock {
   constructor({ template }) {
     this.template = template;
   }
@@ -20,7 +20,7 @@ class Clock {
       .replace("m", mins)
       .replace("s", secs);
 
-    console.log(output);
+    window.console.log(output);
   }
 
   stop() {

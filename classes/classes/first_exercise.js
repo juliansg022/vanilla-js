@@ -4,8 +4,6 @@
 // P.S. The clock ticks in the console, open it to see.
 
 class Clock {
-  timer = undefined;
-
   constructor({ template }) {
     this.template = template;
   }
@@ -27,7 +25,7 @@ class Clock {
       .replace("m", mins)
       .replace("s", secs);
 
-    console.log(output);
+    window.console.log(output);
   }
 
   stop() {
