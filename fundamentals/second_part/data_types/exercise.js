@@ -1,7 +1,7 @@
-let name = "Ilya";
+let userName = "Ilya";
 
-alert(`Hello ${1}`); // Displays "Hello 1". Solve the operation into ${}.
+window.alert(`Hello ${1}`); // Displays "Hello 1". Solve the operation into ${}.
 
-alert(`Hello ${"name"}`); // Displays "Hello name". In ${} a string "name" is invoked, not the variable "name".
+window.alert(`Hello ${"name"}`); // Displays "Hello name". In ${} a string "name" is invoked, not the variable "name".
 
-alert(`Hello ${name}`); // Displays "Hello Ilya", In ${} is invoked the variable "name".
+window.alert(`Hello ${userName}`); // Displays "Hello Ilya", In ${} is invoked the variable "name".

@@ -4,7 +4,7 @@ let a = 1,
 let c = ++a;
 let d = b++;
 
-alert(a); // Displays 2
-alert(b); // Displays 2
-alert(c); // Displays 2
-alert(d); // Displays 1
+window.alert(a); // Displays 2
+window.alert(b); // Displays 2
+window.alert(c); // Displays 2
+window.alert(d); // Displays 1
