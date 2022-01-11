@@ -6,6 +6,7 @@
     "jest-changed-files": "^27.4.2",
     "jest-docblock": "^27.4.0",
     "jest-validate": "^27.4.6",
+    "jquery": "^3.6.0",
     "node-fetch": "^2.6.6"
   },
   "devDependencies": {
