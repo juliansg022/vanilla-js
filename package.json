@@ -5,11 +5,13 @@
   "dependencies": {
     "jest-changed-files": "^27.4.2",
     "jest-docblock": "^27.4.0",
-    "jest-validate": "^27.4.6"
+    "jest-validate": "^27.4.6",
+    "node-fetch": "^2.6.6"
   },
   "devDependencies": {
     "@babel/core": "^7.16.7",
     "@babel/preset-env": "^7.16.8",
+    "@babel/preset-typescript": "^7.16.7",
     "babel-jest": "^27.4.6",
     "jest": "^27.4.7"
   }
