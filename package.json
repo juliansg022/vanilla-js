@@ -1,5 +1,13 @@
 {
-    "scripts": {
-        "test": "jest"
-    }
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "jest-changed-files": "^27.4.2",
+    "jest-docblock": "^27.4.0",
+    "jest-validate": "^27.4.6"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
 }
