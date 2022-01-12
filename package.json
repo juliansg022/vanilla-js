@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "customized-object-comparator": "^1.0.0"
+  },
+  "type": "module"
+}
