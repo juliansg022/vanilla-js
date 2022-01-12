@@ -1,0 +1,13 @@
+{
+  "esversion": 11,
+  "undef": true,
+  "unused": true,
+  "eqnull": true,
+  "browser": true,
+  "globals": {
+    "test": true,
+    "expect": true,
+    "require": true,
+    "module": true
+  }
+}
